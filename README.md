@@ -79,10 +79,6 @@ npm run preview
 npm run lint
 ```
 
-## مشارکت
-
-برای مشارکت در پروژه، لطفاً ابتدا تغییرات مورد نظر خود را در یک شاخه جدید اعمال کنید و سپس درخواست Pull Request ارسال نمایید.
-
 ---
 
 # React Sample Project
@@ -166,6 +162,4 @@ npm run preview
 npm run lint
 ```
 
-## Contributing
 
-To contribute to the project, please make your changes in a new branch and then submit a Pull Request.
