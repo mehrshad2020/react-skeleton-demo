@@ -1,7 +1,6 @@
 .data-container {
   font-family: 'Vazirmatn', sans-serif;
   max-width: 800px;
-  margin: 2rem auto;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -12,7 +11,6 @@
 .data-title {
   text-align: center;
   color: #333;
-  margin-bottom: 1.5rem;
   font-weight: 700;
 }
 
@@ -32,6 +30,33 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
+  max-height: 60vh;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+/* Scrollbar styles */
+.user-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.user-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.user-list::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.user-list::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+.user-list {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #f1f1f1;
 }
 
 .user-card {
