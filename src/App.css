@@ -49,7 +49,8 @@
 .app-title {
   text-align: center;
   color: #333;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
+  font-size: 2rem;
 }
 
 .toggle-container {

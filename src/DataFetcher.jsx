@@ -42,8 +42,6 @@ function DataFetcher() {
           {[...Array(5)].map((_, index) => (
             <div key={index} className="skeleton-card">
               <Skeleton height={30} width={200} />
-              <Skeleton height={20} width={150} />
-              <Skeleton height={15} width={100} count={2} />
             </div>
           ))}
         </div>
